@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>jQuery Functions</title>
+</head>
+<body>
+    <h1>jQuery Functions</h1>
+    <h4><span> Click( )</span>  on each method name to see how it works</h4>
+
+    <div id="page_container">
+
+        <!-- hide(), show()-->
+        <div class="method_container">
+            <h2 class="method_name">hide( ), show( )</h2>
+            <div id="hide_show" class="hideDiv">
+                <p>Click the button to hide or show image</p>
+                <button id = 'hideBtn'>Hide</button>
+                <button id = 'showBtn'>Show</button>
+                <br>
+                <img src="images/1.jpg" alt="1"> 
+            </div>
+        </div>
+        <hr>
+
+        <!-- addClass(), removeClass() -->
+        <div class="method_container">
+            <h2 class="method_name">addClass( ), removeClass( )</h2>
+            <div id="addClass" class="hideDiv">
+                <p>Click button and add class 'red' to this paragraph</p>
+                <button>Add Class</button>
+            </div>
+        </div>
+        <hr>
+
+        <!-- slideToggle() -->
+        <div class="method_container">
+            <h2 class="method_name">slideToggle( )</h2>
+            <div id="slideToggle" class="hideDiv">
+                <button>Show Image</button>
+                <br>
+                <img src="images/monkey.jpg" alt="monkey">
+            </div>
+        </div>
+        <hr>
+
+        <!-- append(), remove() -->
+        <div class="method_container">
+            <h2 class="method_name">append( ), remove( )</h2>
+            <div id="append" class="hideDiv">
+                <p>Click the button to Append or Remove a new item</p>
+                <button id = 'add'>Append</button>
+                <button id = 'remove'>Remove</button>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+        <!-- fadeIn(), fadeOut() -->
+        <div class="method_container">
+            <h2 class="method_name">fadeIn( ), fadeOut( )</h2>
+            <div id="fadeDiv" class="hideDiv">
+                <button>Show Image</button>
+                <br>
+                <img src="images/monkey.jpg" alt="monkey2">
+            </div>
+        </div>
+        <hr>
+
+        <!-- before() -->
+        <div class="method_container">
+            <h2 class="method_name">before( )</h2>
+            <div id="before" class="hideDiv">
+                <p>Click the button to add a new item before 1st item</p>
+                <button id = 'add'>add before</button>
+                <button id = 'remove'>remove before</button>
+                <ul>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+        <!-- attr() -->
+        <div class="method_container">
+            <h2 class="method_name">attr( )</h2>
+            <div id="attr" class="hideDiv">
+                <p>Click the image to change Image</p>
+                <img src="images/1.jpg" alternative_src='images/2.jpg' alt="image">
+            </div>
+        </div>
+        <hr>
+
+        <!-- val() -->
+        <div class="method_container">
+            <h2 class="method_name">val( ), keyup( )</h2>
+            <div id="val" class="hideDiv">
+                <p>here you will see inputed text</p>
+                <input type="text" value="type something here">
+            </div>
+        </div>
+        <hr>
+        
+
+        <!-- slideUp(), slideDown() -->
+        <div class="method_container">
+            <h2 class="method_name">slideUp( ), slideDown( )</h2>
+            <div id="slide_up_down" class="hideDiv">
+                <p>Click the button to slide image</p>
+                <button id = 'slide_down_Btn'>Slide Down</button>
+                <button id = 'slide_up_Btn'>Slide Up</button>
+                <br>
+                <img src="images/1.jpg" alt="1"> 
+            </div>
+        </div>
+        <hr>
+
+        <!-- getAttribute(), setAttribute()-->
+        <div class="method_container">
+            <h2 class="method_name">getAttribute( ), setAttribute( )</h2>
+            <div id="get_attr" class="hideDiv">
+                <p>Click the button to change Image</p>
+                <button>Change Image</button>
+                <br>
+                <img src="images/1.jpg" alt="1"> 
+
+            </div>
+        </div>
+        <hr>
+        <hr>
+
+
+
+
+
+
+
+
+        <!-- Show All Categories -->
+        <ul>
+            <div id="slideToggle">
+                <li id="show_all">Hide all</li>
+                <div id="hidden_categories">
+                    <li>Socks</li>
+                    <li>Hats</li>
+                    <li>Pants</li>
+                </div>
+            </div>
+        </ul>
+
+        <hr>
+        
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
